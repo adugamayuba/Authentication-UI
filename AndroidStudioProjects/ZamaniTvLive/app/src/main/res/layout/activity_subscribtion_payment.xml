@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    tools:context="com.zamani.zamani.SubscribtionPayment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginTop="19dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="PAYMENT" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/textcolor"
+                android:text="You will be charged" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_toEndOf="@+id/textView11"
+                android:text="3500" />
+
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Naira"
+                android:textColor="@color/textcolor" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/expirymonth"
+            android:layout_alignStart="@+id/card_number"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Card details..."
+
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/card_number"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView12"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/textcolor"
+            android:hint="Card Number"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/expirymonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/card_number"
+                android:layout_below="@+id/card_number"
+                android:ems="2"
+                android:hint="MM"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/textcolor"
+                android:inputType="number"
+                android:maxEms="2" />
+
+            <EditText
+                android:id="@+id/expiryyear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_number"
+                android:layout_toEndOf="@+id/expirymonth"
+                android:ems="4"
+                android:hint="YYYY"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/textcolor"
+                android:inputType="number"
+                android:maxEms="4" />
+
+            <EditText
+                android:id="@+id/cvv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/card_number"
+                android:layout_below="@+id/card_number"
+                android:ems="3"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/textcolor"
+                android:hint="CVV"
+                android:inputType="textPersonName"
+                android:maxEms="3" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/useremail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/expirymonth"
+            android:layout_below="@+id/expirymonth"
+            android:layout_marginTop="34dp"
+            android:ems="10"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/textcolor"
+            android:hint="Email"
+            android:layout_marginLeft="25dp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editText18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/useremail"
+            android:layout_below="@+id/useremail"
+            android:layout_marginTop="11dp"
+            android:ems="10"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/textcolor"
+            android:layout_marginLeft="25dp"
+            android:inputType="textPersonName"
+            android:hint="Full Name" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="25dp"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_toStartOf="@+id/cvv"
+            android:background="@color/colorPrimaryDark"
+            android:clickable="true"
+            android:onClick="combinations"
+            android:text="SUBSCRIBE"/>
+
+        <TextView
+            android:id="@+id/alreadysubscribed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+           style="@style/Base.Widget.AppCompat.Button.Borderless"
+           android:clickable="true"
+            android:onClick="onClick"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Already Subscribed" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    tools:context="com.zamani.zamani.me">
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar3"
+
+        android:background="@color/toolbarcolor"
+        android:gravity="top"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:srcCompat="?android:attr/actionModeCloseDrawable" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="PROFILE"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:background="?attr/colorPrimary"-->
+    <!--android:minHeight="?attr/actionBarSize"-->
+    <!--android:theme="?attr/actionBarTheme" />-->
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar3"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/scrollView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignBottom="@+id/scrollView2"
+            android:orientation="vertical"
+            style="@style/AppTheme">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:background="@drawable/account_icon" />
+
+                <TextView
+                    android:id="@+id/myacccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+
+                    android:layout_alignParentStart="true"
+
+
+                    android:text="My Account" />
+
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textAllCaps="true"
+                android:background="@color/colorPrimaryDark"
+                android:layout_height="50dp"
+                android:text="Subscribed" />
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView10"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_marginTop="25dp"-->
+                    <!--android:text="Name" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView1q0"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textColor="#000000"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="Abel Ayuba" />-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textnasView10"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_marginTop="25dp"-->
+                    <!--android:text="Email Address" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textViesw1q0"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textColor="#000000"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="adugamayuba@gmail.com" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView1v"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_marginTop="25dp"-->
+                    <!--android:text="Phone Number" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView1q0e"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textColor="#000000"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="+2348091774510" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/button4"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@color/colorPrimaryDark"-->
+                    <!--android:layout_marginLeft="25dp"-->
+                    <!--android:layout_marginRight="25dp"-->
+                    <!--android:layout_marginTop="75dp"-->
+                    <!--style="@style/Base.Widget.AppCompat.Button.Colored"-->
+                    <!--android:text="LOGOUT" />-->
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Settings" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    app:srcCompat="@android:drawable/btn_star" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Push Notificatons" />
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView47"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:textColor="@color/colorPrimary"-->
+                <!--android:text="About" />-->
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageButton-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+
+                    <!--app:srcCompat="@android:drawable/btn_star" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textViewg8"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="Legal" />-->
+
+
+
+            <!--</LinearLayout>-->
+
+
+
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:clickable="true"-->
+
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageButton-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+
+                    <!--app:srcCompat="@android:drawable/btn_star" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView24"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="Terms of Use" />-->
+
+
+
+            <!--</LinearLayout>-->
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:clickable="true"-->
+
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageButton-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+
+                    <!--app:srcCompat="@android:drawable/btn_star" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView2v4"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="Privacy policy" />-->
+
+
+
+            <!--</LinearLayout>-->
+
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:clickable="true"-->
+
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageButton-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+
+                    <!--app:srcCompat="@android:drawable/btn_star" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView2vv4"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="End User Licensing Agreement" />-->
+
+
+
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/floatingActionButton"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_marginBottom="52dp"-->
+    <!--android:layout_marginEnd="32dp"-->
+    <!--android:clickable="true"-->
+    <!--android:tooltipText="help"-->
+    <!--android:backgroundTint="@color/common_google_signin_btn_tint" />-->
+
+
+</RelativeLayout>
