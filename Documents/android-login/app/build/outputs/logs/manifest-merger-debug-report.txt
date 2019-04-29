@@ -1,0 +1,174 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.jakewharton:butterknife:8.5.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/1cf83b6408f7c0d3d59d28ceff2e730a/AndroidManifest.xml:2:1-7:12
+MERGED from [com.andkulikov:transitionseverywhere:1.7.4] /home/adugam/.gradle/caches/transforms-1/files-1.1/transitionseverywhere-1.7.4.aar/0e0bc3756e0013737eb3dc4f2fdfed0b/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/724ad0d1437326618ba2d522cc4efc45/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/2a305bb0368f003bbd56b601335fb0cd/AndroidManifest.xml:17:1-26:12
+MERGED from [net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.1.0] /home/adugam/.gradle/caches/transforms-1/files-1.1/keyboardvisibilityevent-2.1.0.aar/349f5d1acd9cabc031632a4df6bb1c28/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.Q42:AndroidScrollingImageView:1.2] /home/adugam/.gradle/caches/transforms-1/files-1.1/AndroidScrollingImageView-1.2.aar/693a574e882f9fc2926f7c70ee773956/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c0b6a63ae7ae0d773b6075119a9f38d5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/adugam/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/154c7836412ac9f8f40e19bb8828eac7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/3f151e26127ee1865c3784635a6a252c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b4d8d19c6f576339b27af81938dabef7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/08363f38fc011aeaa1f12b9f9385fb7e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/1c28dbc31bd0f377eac5366f3b720c9e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/aaf8baecfdd67389c460ebc010d98175/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a7a0192d18208c3b586b0b2fd5136f53/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/af8b9ccaad68385c05a0eea264bf7599/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/81715df0d4e54ab643894afe21bb0fd6/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/8f71178730100296a69d9676d016a96c/AndroidManifest.xml:17:1-31:12
+INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.andkulikov:transitionseverywhere:1.7.4] /home/adugam/.gradle/caches/transforms-1/files-1.1/transitionseverywhere-1.7.4.aar/0e0bc3756e0013737eb3dc4f2fdfed0b/AndroidManifest.xml:12:5-20
+MERGED from [com.andkulikov:transitionseverywhere:1.7.4] /home/adugam/.gradle/caches/transforms-1/files-1.1/transitionseverywhere-1.7.4.aar/0e0bc3756e0013737eb3dc4f2fdfed0b/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:design:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/724ad0d1437326618ba2d522cc4efc45/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/724ad0d1437326618ba2d522cc4efc45/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c0b6a63ae7ae0d773b6075119a9f38d5/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c0b6a63ae7ae0d773b6075119a9f38d5/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/adugam/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/154c7836412ac9f8f40e19bb8828eac7/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/adugam/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/154c7836412ac9f8f40e19bb8828eac7/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/3f151e26127ee1865c3784635a6a252c/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/3f151e26127ee1865c3784635a6a252c/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b4d8d19c6f576339b27af81938dabef7/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b4d8d19c6f576339b27af81938dabef7/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/08363f38fc011aeaa1f12b9f9385fb7e/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/08363f38fc011aeaa1f12b9f9385fb7e/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/1c28dbc31bd0f377eac5366f3b720c9e/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/1c28dbc31bd0f377eac5366f3b720c9e/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/aaf8baecfdd67389c460ebc010d98175/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/aaf8baecfdd67389c460ebc010d98175/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a7a0192d18208c3b586b0b2fd5136f53/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a7a0192d18208c3b586b0b2fd5136f53/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/af8b9ccaad68385c05a0eea264bf7599/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/af8b9ccaad68385c05a0eea264bf7599/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/81715df0d4e54ab643894afe21bb0fd6/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/81715df0d4e54ab643894afe21bb0fd6/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/8f71178730100296a69d9676d016a96c/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/8f71178730100296a69d9676d016a96c/AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.vpaliy.loginconcept.LoginActivity
+ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:screenOrientation
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:13:13-49
+	android:name
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:12:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:14:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+MERGED from [com.jakewharton:butterknife:8.5.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/1cf83b6408f7c0d3d59d28ceff2e730a/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.5.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/1cf83b6408f7c0d3d59d28ceff2e730a/AndroidManifest.xml:5:5-43
+MERGED from [com.andkulikov:transitionseverywhere:1.7.4] /home/adugam/.gradle/caches/transforms-1/files-1.1/transitionseverywhere-1.7.4.aar/0e0bc3756e0013737eb3dc4f2fdfed0b/AndroidManifest.xml:8:5-10:41
+MERGED from [com.andkulikov:transitionseverywhere:1.7.4] /home/adugam/.gradle/caches/transforms-1/files-1.1/transitionseverywhere-1.7.4.aar/0e0bc3756e0013737eb3dc4f2fdfed0b/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/724ad0d1437326618ba2d522cc4efc45/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/724ad0d1437326618ba2d522cc4efc45/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/2a305bb0368f003bbd56b601335fb0cd/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/2a305bb0368f003bbd56b601335fb0cd/AndroidManifest.xml:20:5-43
+MERGED from [net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.1.0] /home/adugam/.gradle/caches/transforms-1/files-1.1/keyboardvisibilityevent-2.1.0.aar/349f5d1acd9cabc031632a4df6bb1c28/AndroidManifest.xml:8:5-10:41
+MERGED from [net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.1.0] /home/adugam/.gradle/caches/transforms-1/files-1.1/keyboardvisibilityevent-2.1.0.aar/349f5d1acd9cabc031632a4df6bb1c28/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.Q42:AndroidScrollingImageView:1.2] /home/adugam/.gradle/caches/transforms-1/files-1.1/AndroidScrollingImageView-1.2.aar/693a574e882f9fc2926f7c70ee773956/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.Q42:AndroidScrollingImageView:1.2] /home/adugam/.gradle/caches/transforms-1/files-1.1/AndroidScrollingImageView-1.2.aar/693a574e882f9fc2926f7c70ee773956/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c0b6a63ae7ae0d773b6075119a9f38d5/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c0b6a63ae7ae0d773b6075119a9f38d5/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/adugam/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/154c7836412ac9f8f40e19bb8828eac7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/adugam/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/154c7836412ac9f8f40e19bb8828eac7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/3f151e26127ee1865c3784635a6a252c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/3f151e26127ee1865c3784635a6a252c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b4d8d19c6f576339b27af81938dabef7/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b4d8d19c6f576339b27af81938dabef7/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/08363f38fc011aeaa1f12b9f9385fb7e/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/08363f38fc011aeaa1f12b9f9385fb7e/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/1c28dbc31bd0f377eac5366f3b720c9e/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/1c28dbc31bd0f377eac5366f3b720c9e/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/aaf8baecfdd67389c460ebc010d98175/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/aaf8baecfdd67389c460ebc010d98175/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a7a0192d18208c3b586b0b2fd5136f53/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a7a0192d18208c3b586b0b2fd5136f53/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/af8b9ccaad68385c05a0eea264bf7599/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/af8b9ccaad68385c05a0eea264bf7599/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/81715df0d4e54ab643894afe21bb0fd6/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/81715df0d4e54ab643894afe21bb0fd6/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/8f71178730100296a69d9676d016a96c/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/8f71178730100296a69d9676d016a96c/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/724ad0d1437326618ba2d522cc4efc45/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+		ADDED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adugam/AndroidStudioProjects/android-login/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/724ad0d1437326618ba2d522cc4efc45/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/2a305bb0368f003bbd56b601335fb0cd/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/2a305bb0368f003bbd56b601335fb0cd/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c0b6a63ae7ae0d773b6075119a9f38d5/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/c0b6a63ae7ae0d773b6075119a9f38d5/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/3f151e26127ee1865c3784635a6a252c/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/3f151e26127ee1865c3784635a6a252c/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b4d8d19c6f576339b27af81938dabef7/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/b4d8d19c6f576339b27af81938dabef7/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/08363f38fc011aeaa1f12b9f9385fb7e/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/08363f38fc011aeaa1f12b9f9385fb7e/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/1c28dbc31bd0f377eac5366f3b720c9e/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/1c28dbc31bd0f377eac5366f3b720c9e/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/aaf8baecfdd67389c460ebc010d98175/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/aaf8baecfdd67389c460ebc010d98175/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a7a0192d18208c3b586b0b2fd5136f53/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a7a0192d18208c3b586b0b2fd5136f53/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/af8b9ccaad68385c05a0eea264bf7599/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/af8b9ccaad68385c05a0eea264bf7599/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/81715df0d4e54ab643894afe21bb0fd6/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/81715df0d4e54ab643894afe21bb0fd6/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/8f71178730100296a69d9676d016a96c/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/8f71178730100296a69d9676d016a96c/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/724ad0d1437326618ba2d522cc4efc45/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /home/adugam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/724ad0d1437326618ba2d522cc4efc45/AndroidManifest.xml:26:9-47

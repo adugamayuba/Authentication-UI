@@ -1,0 +1,4 @@
+#Thu Mar 28 22:19:42 WAT 2019
+base.0=/home/adugam/AndroidStudioProjects/android-login/app/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex

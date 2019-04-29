@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu Mar 28 22:14:10 WAT 2019
+0.baseType=DIRECTORY
+0.base=/home/adugam/AndroidStudioProjects/android-login/flip-concept/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1
