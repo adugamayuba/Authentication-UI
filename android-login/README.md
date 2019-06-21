@@ -21,16 +21,6 @@ If you want this option, just change [this file](https://github.com/vpaliyX/Logi
 </shape>
 ```
 
-I created a post about the implementation on [Medium](https://medium.com/@vpaliy/do-you-dare-me-to-implement-this-login-screen-bf29b72d9e39), you can check this out for more details.
-
-Also, you can download it:
-
-<a href="https://play.google.com/store/apps/details?id=com.vpaliy.loginconcept">
-<img src="https://github.com/vpaliyX/LoginConcept/blob/master/art/get_it.png" />
-</a>
-
-
-Inspired by [Yaroslav Zubkov's](https://www.uplabs.com/posts/7-2-log-in-sign-up) design.
 
 ```
 MIT License
